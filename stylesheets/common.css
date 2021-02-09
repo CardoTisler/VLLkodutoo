@@ -1,0 +1,148 @@
+h4{
+    font-size: 1.6vw;
+}
+#titleBar{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titleBar h1{
+    font-size: 3.1vw;
+    font-style: italic;
+    text-shadow: 2px 2px 8px rgb(133, 131, 131);
+}
+#titleBar h3{
+    font-size: 2vw;
+    font-weight: 100;
+    text-shadow: 1px 1px 8px rgb(119, 118, 118);
+}
+#navigationBar{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#navigationBar a{
+    color: rgb(43, 42, 42);
+    font-weight: 100;
+}
+#navigationBar a:hover{
+    color: rgb(100, 98, 98);
+    text-decoration: none;
+}
+#banner{
+    margin-top: 2%;
+    width: 100%;
+    height: 40vh;
+
+    padding-bottom: 2%;
+    border-bottom: solid 1px;
+    border-bottom-color:rgb(133, 131, 131);
+}
+#banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#descriptionBar{
+    margin-top: 9%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+}
+#description{
+    width: 50%;
+}
+#descriptionTitle h4{
+    margin-left: 2%;
+}
+#descriptionText{
+    width: 100%;
+    font-size: 1.3vw;
+}
+#descriptionImg{
+    width: 50%;
+    height: 100%;
+    margin-top: 6%;
+}
+#descriptionImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#recipesCategoriesBar{
+    margin-top: 25%;
+    width: 100%;
+    /* height: 25vh; */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.recipeCategoryImg{
+    width: 25%;
+    position: relative;
+}
+.recipeCategoryImg img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+#footer{
+    margin-top: 5%;
+}
+.categoryImageText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2vw;
+    color: white;
+    font-weight: 700;
+    text-shadow: 3px 3px 9px #111;
+}
+.recipeCategoryImg:hover{
+    cursor: pointer;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    border-top: solid;
+    border-top-color: whitesmoke;
+    padding-top: 3%;
+}
+#footerText{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+.footerInfoRow{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2vw;
+}
+.footerInfoRow i{
+    font-size: 1.3vw;
+    margin-top: 25%;
+}
+#footerSocialImages{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    padding: 2%;
+}
+#footerSocialImages i{
+    padding-bottom: 15%;
+}
+#footerSocialImages i:hover{
+    cursor: pointer;
+}
+
+
